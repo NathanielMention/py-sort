@@ -17,11 +17,11 @@ class DrawInformation:
         (192, 192, 192)
     ]
 
-    FONT = pygame.font.SysFont('comicsans', 30)
-    LARGE_FONT = pygame.font.SysFont('comicsans', 40)
+    FONT = pygame.font.SysFont('comicsans', 25)
+    LARGE_FONT = pygame.font.SysFont('comicsans', 25)
 
-    SIDE_PAD = 100
-    TOP_PAD = 150
+    SIDE_PAD = 250
+    TOP_PAD = 250
 
     def __init__(self, width, height, lst):
         self.width = width
